@@ -1,0 +1,4 @@
+import os
+
+ip = str(os.popen('ifconfig | grep "broadcast"').readlines()).split(' ')[9]
+print ip
