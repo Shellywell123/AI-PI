@@ -16,4 +16,4 @@ Prototype idea to turn my raspi into a wireless information hub.
  - reminders
  - time defined volumes and prompts e.g good morning
  - interactive commands
- - clanader
+ - calanader
