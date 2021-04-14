@@ -30,13 +30,13 @@ def get_stock_info(ticker):
                     direction = 'up'
 
                 ret_str='{} is currently {} {}% trading at {} U.S, dollars'.format(name,direction,per_change,price)
-                print(ret_str)
+                print('\n - AI-PI: "',ret_str,'"')
                 return ret_str
                 
         except:
                 print("'{}' is not a vaild ticker, try again".format(ticker))
 
 text = get_stock_info(ticker)
-os.system(text)
+os.system('espeak "{}"'.format(text))
 
 

@@ -25,5 +25,5 @@ month = months [month_int-1]
 
 info = 'espeak " it is {}, on {} the {} of {}"'.format(time,day,date,month,year)
 
-#print (info)
+print ('\n - AI-PI: "',info.split('"')[1],'"')
 os.system(info)
