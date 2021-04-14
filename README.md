@@ -7,7 +7,7 @@ python3 all.py
 #or
 python3 [a specific feature].py
 ```
-I like to have it as a `bash alias' on my pi so i can run it at boot or login.
+I like to have it as a `bash alias` on my pi so i can run it at boot or login.
 
 ## Commandline dependencies
  - espeak
