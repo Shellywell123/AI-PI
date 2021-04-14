@@ -1,5 +1,5 @@
 # AI-PI
-Commandline idea to turn my Rasberry Pie into a wireless information hub.
+Commandline idea to turn my Raspberry Pie into a wireless information hub.
 
 ## Usage
 ```py
