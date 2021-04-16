@@ -18,6 +18,7 @@ I like to have it as a `bash alias` or in mt `/profile` on my pi so i can run it
  - tell you the current time and date
  - tell you the weather and temperature in your local area
  - tell you the current price and percentage change on stocks of your choice
+ - tell you a random joke
  
 ## Potential Features
  - radio
