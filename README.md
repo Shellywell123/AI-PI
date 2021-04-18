@@ -3,7 +3,7 @@ Commandline idea to turn my Raspberry Pie into a wireless information hub.
 
 ## Usage
 ```py
-python3 all.py 
+python3 AI-PI.py 
 #or
 python3 [a specific feature].py
 ```
