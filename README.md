@@ -1,5 +1,5 @@
 # AI-PI
-Commandline idea to turn my Raspberry Pie into a wireless information hub.
+Currenlty using a ras-pi as a glorified bluetooth dongle for my stereo system, so had the idea for the pi to also be a wireless information hub.
 
 ## Usage
 ```py
@@ -7,11 +7,11 @@ python3 AI-PI.py
 #or
 python3 [a specific feature].py
 ```
-I like to have it as a `bash alias` or in mt `/profile` on my pi so i can run it at boot or login.
+I like to have it as a `bash alias` or in my `.profile` in the pi's file system so it can boot at power up or login.
 
 ## Commandline dependencies
- - espeak
- - wttr.in
+ - `espeak`
+ - `wttr.in`
 
 ## AI-Pi can...
  - tell you your ip
@@ -20,12 +20,12 @@ I like to have it as a `bash alias` or in mt `/profile` on my pi so i can run it
  - tell you the current price and percentage change on stocks of your choice
  - tell you a random joke
  
-## Potential Features
- - radio
- - metrenome
- - weather & news 
- - alarm clock
- - reminders
- - time defined volumes and prompts e.g good morning
- - interactive commands
- - calanader
+## AI-Pi plans to ...
+ - be a radio
+ - be a metronome
+ - tell you the news 
+ - be an alarm clock
+ - tell you reminders / keep your calander
+ - control audio volume
+ - read your commands ... `foo@pi~$ AI-PI "what is 2+2?"`
+ - listen to you (AI voice recognition)
