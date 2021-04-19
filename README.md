@@ -13,14 +13,14 @@ I like to have it as a `bash alias` or in my `.profile` in the pi's file system 
  - `espeak`
  - `wttr.in`
 
-## AI-Pi can ...
+## AI-PI can ...
  - tell you your ip
  - tell you the current time and date
  - tell you the weather and temperature in your local area
  - tell you the current price and percentage change on stocks of your choice
  - tell you a random joke
  
-## AI-Pi plans to ...
+## AI-PI plans to ...
  - be a radio
  - be a metronome
  - tell you the news 
