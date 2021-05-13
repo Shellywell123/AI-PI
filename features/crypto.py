@@ -16,8 +16,8 @@ def get_live_binance_spot_price(ticker):
 
         response = requests.get(bin_api_url).json()
 
-        symbol = ticker['symbol']
-        price  = ticker['price']
+        symbol = response['symbol']
+        price  = response['price']
 
         ret_str='{} is currently trading at {} '.format(symbol,price)
         print('\n - AI-PI: "',ret_str,'"')
