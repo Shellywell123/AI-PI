@@ -1,4 +1,4 @@
-def alarm_check():
+def alarm_check(alarm_time):
     """
     """
     import os 
@@ -9,9 +9,9 @@ def alarm_check():
     year  = str(os.popen("date +%Y").readlines())[2:-4]
     time  = str(os.popen("date +%X").readlines())[2:-7]
 
-    alarm_time = '17:50'
-
-    print ('\n - AI-PI: "'+time)
+    print ('\n - AI-PI: "current time {}, alarm set fo {}"'.format(time,alarm_time))
 
     if time==alarm_time:
-    	os.system('espeak "wake up!"')
+        return True
+    else:
+        return False
